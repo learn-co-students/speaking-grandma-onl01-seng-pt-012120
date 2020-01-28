@@ -37,17 +37,19 @@
 
 def speak_to_grandma(phrase)
 
-if "#{phrase}" == "Hi Nana, How are you?".upcase
-  return "I LOVE YOU GRANDMA!"
-elsif "#{phrase}" == "Hi Nana, how are you?".upcase
+if phrase == "I LOVE YOU GRANDMA"
+ return "I LOVE YOU TOO PUMPKIN!"
+ elsif phrase == "Hi Nana, how are you?".upcase
   return "HUH?! SPEAK UP, SONNY!"
-elsif "#{phrase}" == "Hi!"
+elsif "phrase" == "Hi!"
   return "HUH?! SPEAK UP, SONNY!"
-elsif "#{phrase}" == "WHAT DID YOU EAT TODAY?!"
+elsif "phrase" == "WHAT DID YOU EAT TODAY?!"
  return "I LOVE YOU TOO PUMPKIN!"
 else 
   puts "I LOVE YOU GRANDMA!" 
+ end
 end
+
 
 
 
