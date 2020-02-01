@@ -21,7 +21,7 @@
 #elsif grandma == "I LOVE YOU GRANDMA!"
 #puts "I LOVE YOU TOO PUMPKIN!".upcase
  
-#lse
+#else
    #puts "grandma stops screaming."
 #end
 
@@ -35,20 +35,43 @@
 
 
 
-def speak_to_grandma(phrase)
+#def speak_to_grandma(phrase)
 
-if phrase == "I LOVE YOU GRANDMA"
+#if phrase == "I LOVE YOU GRANDMA"
+#return "I LOVE YOU TOO PUMPKIN!"
+ #elsif phrase == "Hi Nana, how are you?".upcase
+  #return "HUH?! SPEAK UP, SONNY!"
+#elsif "phrase" == "Hi!"
+  #return "HUH?! SPEAK UP, SONNY!"
+#elsif "phrase" == "WHAT DID YOU EAT TODAY?!"
+ #return "I LOVE YOU TOO PUMPKIN!"
+#else 
+  #puts "I LOVE YOU GRANDMA!" 
+ #end
+ 
+def speak_to_grandma(phrase)
+if phrase == "Hi Nana, how are you?"
+ return "HUH?! SPEAK UP, SONNY!"
+ elsif phrase == "Hi!"
+ return "HUH?! SPEAK UP, SONNY!".upcase
+elsif phrase == "I LOVE YOU GRANDMA!"
  return "I LOVE YOU TOO PUMPKIN!"
- elsif phrase == "Hi Nana, how are you?".upcase
-  return "HUH?! SPEAK UP, SONNY!"
-elsif "phrase" == "Hi!"
-  return "HUH?! SPEAK UP, SONNY!"
-elsif "phrase" == "WHAT DID YOU EAT TODAY?!"
- return "I LOVE YOU TOO PUMPKIN!"
+elsif phrase == "WHAT DID YOU EAT TODAY?!"
+  return "NO, NOT SINCE 1938!".upcase
 else 
-  puts "I LOVE YOU GRANDMA!" 
+  return "NO, NOT SINCE 1938!"
  end
 end
+
+
+
+
+
+
+
+
+
+
 
 
 
