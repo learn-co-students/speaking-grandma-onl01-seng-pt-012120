@@ -11,3 +11,11 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+ref speak_to_grandma
+if "Hello Grandma".downcase 
+  then puts "HUH?! SPEAK UP, SONNY!"
+elsif "Hello Grandma".upcase
+then puts "NO, NOT SINCE 1938!"
+elsif string == "I LOVE YOU GRANDMA!"
+then puts "I LOVE YOU TOO PUMPKIN!"
+end
